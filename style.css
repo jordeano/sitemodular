@@ -1,1 +1,4 @@
-h1{column-rule-color: blue;}
+h1{
+    font-size: large;
+    color:blue
+}
