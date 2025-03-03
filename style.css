@@ -1,6 +1,30 @@
+/*cabecanho em teste*/
+
+.cabecanho{
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family:serif;
+
+}
+/*fontes em testes (pode nao estar em uso)*/
+
 h1{
     font-size: large;
+    font-style: italic;
     color:blue
+}
+
+/*fontes do rodape*/
+p1{
+    font-size: larger;
+    font-style: unset;
+    color: red;
+}
+p2{
+    font-size:x-large;
+    font-size-adjust: initial;
 }
 body{
     color: black;
