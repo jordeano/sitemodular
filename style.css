@@ -22,13 +22,16 @@ h1{
 }
 
 /*rodape*/
-.
+.rodape{
+    background-color:black;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+
 p1{
     font-size: larger;
     font-style: unset;
     color: red;
 }
-p2{
-    font-size:x-large;
-    font-size-adjust: initial;
 }
