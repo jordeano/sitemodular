@@ -1,9 +1,11 @@
-/*cabecanho em teste*/
-
-.cabecanho{
-    background-color: aqua;
-    color: black;
-    padding: 15px;
+/*cabeçalhoo em teste*/
+@charset "UTF-8";  
+/*Serve para permitir a utilização de qulquer caracteres, principalmente o unicode, UTF-8 é o mais atual*/
+ 
+.cabeçalho{
+    background-color: rgb(255, 0, 200);
+    color: rgb(226, 9, 9);
+    padding: 30px;
     text-align: center;
     font-family:serif;
     width: 100%;
