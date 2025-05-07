@@ -3,7 +3,7 @@
 /*Serve para permitir a utilização de qulquer caracteres, principalmente o unicode, UTF-8 é o mais atual*/
  
 .cabeçalho{
-    background-color: rgb(255, 0, 200);
+    background-color: rgb(20, 20, 20);
     color: rgb(226, 9, 9);
     padding: 30px;
     text-align: center;
@@ -16,7 +16,11 @@
 
 }
 /*fontes em testes (pode nao estar em uso)*/
-
+id1{
+    font-size: xx-large;
+    font-style: italic;
+    color: azure;
+}
 h1{
     font-size: large;
     font-style: italic;
@@ -30,6 +34,7 @@ h1{
     text-align: center;
     width: 100%;
     position: fixed;
+    margin-bottom: -1%;
 
 p1{
     font-size: larger;
