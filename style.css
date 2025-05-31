@@ -42,7 +42,20 @@ p1{
     color: red;
 }
 }
+/*edicção das imagens*/
 
+.imgx {display: block;}
+.imgx img{
+    display: block;
+    margin: 10px;
+    width: 400px;}
+
+/*efeitos*/
+
+.imgx img:hover{
+    transform: scale(1.02);
+    
+}
 
 /*
 @charset "UTF8";
