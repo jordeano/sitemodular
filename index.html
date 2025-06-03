@@ -1,6 +1,174 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Estilos externos -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alexwolfe/Buttons/css/buttons.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: rgb(7, 111, 202);
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .carousel-item {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .carousel-caption {
+      margin-bottom: 20px;
+    }
+
+    .btn-144 {
+      margin: 10px;
+    }
+
+    .imgx {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .imagem-com-texto {
+      max-width: 350px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 10px;
+      text-align: left;
+      background-color: #f9f9f9;
+    }
+
+    .imagem-com-texto img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .imagem-com-texto h3 {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    .imagem-com-texto p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        font-size: 1.2rem;
+        height: auto;
+        padding: 20px;
+      }
+
+      .imgx {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+
+  <title>Site Modular - Agronomia</title>
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    Teste para Site Modular
+  </header>
+
+  <!-- Carrossel e Conteúdo -->
+  <div class="carousel-item">
+    <div class="carousel-caption">
+      <h2>SPN</h2>
+    </div>
+
+    <!-- Botões -->
+    <a href="https://wa.me/5538998966952?text=Ol%C3%A1%2C%20vi%20seu%20n%C3%BAmero%20e%20gostaria%20de%20conversar">
+      <button class="btn-144">WhatsApp</button>
+    </a>
+
+    <a href="/tela1/index1.html">
+      <button class="btn-144">Portfólio</button>
+    </a>
+
+    <!-- Bloco de Imagens com Texto -->
+    <div class="imgx">
+
+      <div class="imagem-com-texto">
+        <img src="imga/agronegocio.jpg" alt="Agronegócio">
+        <h3>Visão Geral da Agronomia</h3>
+        <p>A agronomia é uma ciência essencial para o desenvolvimento sustentável da agricultura e da produção de alimentos...</p>
+      </div>
+
+      <div class="imagem-com-texto">
+        <img src="imga/colheita.webp" alt="Colheita">
+        <h3>A Importância da Agronomia para o Meio Ambiente</h3>
+        <p>A agronomia desempenha um papel crucial na preservação ambiental. Por meio dela, é possível desenvolver práticas agrícolas sustentáveis...</p>
+      </div>
+
+      <div class="imagem-com-texto">
+        <img src="imga/maos_planta.jpg" alt="Planta nas mãos">
+        <h3>Agronomia e Desenvolvimento Econômico</h3>
+        <p>A agronomia é uma base sólida para o desenvolvimento econômico, especialmente em países com forte vocação agrícola...</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    Todos os direitos reservados <br>
+    J.A Company ©
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+<script type="text/plain">
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
     
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,53 +216,53 @@
 <a href="https://wa.me/5538998966952?text=Ol%C3%A1%2C%20vi%20seu%20n%C3%BAmero%20e%20gostaria%20de%20conversar
 "><button class="btn-144">WhatsApp</button></a>
 
+<a href="/tela1/index1.html"><button class="btn-144">Portifolio</button></a>
+
       <!--imagens(botoes)-->
       <div class="imgx">
        <div class="imagem-com-texto">
   <img src="imga/agronegocio.jpg" alt="Descrição da imagem">
   
   <h2></h2>
-  <p>
-                         Visão Geral da Agronomia
+  <pre>                       Visão Geral da Agronomia
 
     A agronomia é uma ciência essencial para o desenvolvimento sustentável da 
-agricultura e da produção de alimentos. Ela estuda os métodos e técnicas de cultivo, manejo 
-do solo, irrigação, controle de pragas e uso de tecnologias para aumentar a produtividade e
+ agricultura e da produção de alimentos. Ela estuda os métodos e técnicas de cultivo, manejo 
+ do solo, irrigação, controle de pragas e uso de tecnologias para aumentar a produtividade e
  a qualidade das colheitas. Com a crescente demanda por alimentos no mundo, o papel do 
  engenheiro agrônomo se torna cada vez mais estratégico. Além de contribuir para a segurança 
  alimentar, a agronomia também atua na conservação dos recursos naturais e na adaptação das 
  práticas agrícolas às mudanças climáticas. Seu impacto vai muito além do campo: influencia 
- diretamente a economia, o meio ambiente e a qualidade de vida das populações.</p>
+ diretamente a economia, o meio ambiente e a qualidade de vida das populações.</pre>
 </div> 
 
     <div class="imagem-com-texto">
   <img src="imga/colheita.webp" alt="Descrição da imagem">
   <title>A Importância da Agronomia para o Meio Ambiente</title>
-  <p>
-
-A agronomia desempenha um papel crucial na preservação ambiental. Por meio dela, é possível 
-desenvolver práticas agrícolas sustentáveis, como o plantio direto, a rotação de culturas e o
+  <pre>
+                 A Importância da Agronomia para o Meio Ambiente
+    A agronomia desempenha um papel crucial na preservação ambiental. Por meio dela, é possível 
+ desenvolver práticas agrícolas sustentáveis, como o plantio direto, a rotação de culturas e o
  uso consciente da água e de insumos químicos. Essas técnicas ajudam a reduzir o impacto 
  ambiental da agricultura, protegendo o solo, os recursos hídricos e a biodiversidade. 
- Engenheiros agrônomos também são responsáveis por promover a recuperação de áreas degradadas 
+   Engenheiros agrônomos também são responsáveis por promover a recuperação de áreas degradadas 
  e incentivar a produção orgânica e agroecológica. Assim, a agronomia não apenas garante a 
- produção de alimentos, mas também contribui para a saúde do planeta.</p>
+ produção de alimentos, mas também contribui para a saúde do planeta.</pre>
 </div>
 
     <div class="imagem-com-texto">
   <img src="imga/maos_planta.jpg" alt="Descrição da imagem">
 
-  <title>Agronomia e Desenvolvimento Econômico</title>
-  <p>
-
-A agronomia é uma base sólida para o desenvolvimento econômico, 
+  <pre>
+                 Agronomia e Desenvolvimento Econômico
+   A agronomia é uma base sólida para o desenvolvimento econômico, 
 especialmente em países com forte vocação agrícola. O setor agropecuário 
 movimenta cadeias produtivas inteiras, desde o campo até a indústria e o comércio. 
-Engenheiros agrônomos são fundamentais nesse processo, pois aplicam conhecimento técnico 
+   Engenheiros agrônomos são fundamentais nesse processo, pois aplicam conhecimento técnico 
 para aumentar a produtividade, melhorar a qualidade dos produtos e reduzir custos de produção. 
 Além disso, a agronomia impulsiona a geração de empregos, promove o uso de tecnologias 
 inovadoras no campo e fortalece a exportação de produtos agrícolas. Portanto, investir na 
-agronomia é investir no progresso de toda a sociedade.</p>
+agronomia é investir no progresso de toda a sociedade.</pre>
 </div>
 
 
@@ -115,3 +283,5 @@ agronomia é investir no progresso de toda a sociedade.</p>
    </footer>
 </body>
 </html>
+
+</script>
